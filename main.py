@@ -169,7 +169,7 @@ def clear_rotation():
     combo_box_reflection.set("Reflejar en eje")  # Resetear el ComboBox de reflexión
     entry_radius.delete(0, tk.END)  # Limpiar el campo de texto del radio
     ax.cla()  # Limpiar el plano
-    ax.set_facecolor('#FFFACD')  # Mantener el fondo amarillo pastel
+    ax.set_facecolor('white') 
     canvas.draw()
 
 # Botones con colores específicos y tamaño consistente
